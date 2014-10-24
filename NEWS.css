@@ -1,0 +1,18 @@
+        #banner {
+            border: 5px solid pink;
+            border-radius: 5px;
+            background-color: pink;}
+        img {
+            width: 30%;
+            float: left;
+            margin-right: 5px;
+            border-radius: 10px;
+        }
+        .input {
+            border: 5px solid #000;
+            height: 200px;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            padding: 5px;
+            }
