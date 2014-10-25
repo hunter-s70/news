@@ -1,4 +1,4 @@
-news = 'some text some text text some long text with newlines and another text another text';
+news = 'Hello Sergey. Это снова я))';
     setInterval('alertElem()', 100);
     i=0;
         function alertElem() {
