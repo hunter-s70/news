@@ -1,4 +1,4 @@
-news = 'Hello Sergey';
+news = 'Hello Sergey. Это снова я))';
     setInterval('alertElem()', 100);
     i=0;
         function alertElem() {
