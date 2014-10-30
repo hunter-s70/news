@@ -4,8 +4,12 @@
 
         function alertArr() {
             i++;
+            if (i == 3) {
+                clearInterval(id);
+            } else {
             partOfArr = partOfArr + news[i];
             id = setInterval('alertElem()', 100);
+            }
         }
 
         id = setInterval('alertElem()', 100);
@@ -17,9 +21,6 @@
             if (part.length == partOfArr.length) {
                 clearInterval(id);
                 setTimeout('alertArr()', 5000);
-            }
-            if (j == partOfArr.length) {
-                clearInterval(id);
             }
         }
     function quick () {
